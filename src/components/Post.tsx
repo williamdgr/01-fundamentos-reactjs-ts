@@ -23,8 +23,6 @@ interface PostProps {
     content: Content[] 
 }
 
-
-
 export function Post({ author, publishedAt, content } : PostProps) {
 
     const [comments, setComments] = useState([
